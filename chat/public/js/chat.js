@@ -9,7 +9,7 @@ var messages = document.getElementById("messages");
 
     messages.appendChild(li).append($("#message").val());
     let span = document.createElement("span");
-    messages.appendChild(span).append("by " + "Anonymous" + ": " + "just now");
+    messages.appendChild(span).append("par " + "Anonymous" + ": " + "à l'instant");
 
     $("#message").val("");
 
@@ -21,8 +21,7 @@ var messages = document.getElementById("messages");
     let span = document.createElement("span");
     var messages = document.getElementById("messages");
     messages.appendChild(li).append(data.message);
-    messages.appendChild(span).append("by " + "anonymous" + ": " + "just now");
-    console.log("Hello bingo!");
+    messages.appendChild(span).append("par " + "anonymous" + ": " + "à l'instant");
   });
 })();
 
@@ -51,7 +50,7 @@ let typing = document.getElementById("typing");
 
 //isTyping event
 messageInput.addEventListener("keypress", () => {
-  socket.emit("typing", { user: "Someone", message: "is typing..." });
+  socket.emit("typing", { user: "Quelqu'un", message: "est en train d'écrire..." });
 });
 
 socket.on("notifyTyping", data => {
@@ -61,7 +60,9 @@ socket.on("notifyTyping", data => {
 
 //stop typing
 messageInput.addEventListener("keyup", () => {
-  socket.emit("stopTyping", "");
+	setTimeout(function() {
+		socket.emit("stopTyping", "");
+	}, 5000);
 });
 
 socket.on("notifyStopTyping", () => {
