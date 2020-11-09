@@ -1,32 +1,5 @@
-extends layout
-include mixins/_tweetForm
-include mixins/_tweetCard
-include mixins/_userCard
-block content
-	.single_wrap
-		if user
-			+tweetForm()
-		else
-			.welcome
-				h1 Bienvenue sur Squakr !
-				h3 Voici les derniers Squaks envoyés :
-		//- - const items = [1,2,3,4,5,6,7,8,9]
-		if !squaks[0]
-			.feedtext
-				if user.lang == 'en'
-					h2 Your feed is empty.
-					h3 🠗 Follow a few people to complete it !
-				else
-					h2 Votre fil d'actualité est vide.
-					h3 🠗 Suivez quelques utilisateurs pour le compléter !
-		if user && user.suggestions
-			.feedtext
-				if user.lang == 'en'
-					h3 Recommended profiles :
-				else
-					h3 Profils recommandés :
-			each profile in profiles
-				+userCard(profile)
-			br
-		each squak in squaks
-			+tweetCard(squak)
+h2 Hello !
+h3 You are on nathn.tech, this website is still under construction. You can check back in a few days or
+	| &nbsp;
+	a(href="mailto:nathan@tranchant.fr") contact me by email
+	|  !
