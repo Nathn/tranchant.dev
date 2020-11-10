@@ -1,6 +1,5 @@
 const express = require('express');
 const fileupload = require('express-fileupload')
-const app = express();
 const promisify = require('es6-promisify');
 const bodyParser = require('body-parser');
 const session = require('express-session');
@@ -9,6 +8,11 @@ const mongoose = require('mongoose');
 const cloudinary = require('cloudinary').v2;
 const nodemailer = require('nodemailer');
 const expressValidator = require('express-validator');
+var forceSsl = require('force-ssl-heroku');
+
+
+const app = express();
+
 const routes = require('./routes');
 require('./handlers/passport');
 
@@ -46,6 +50,8 @@ app.use(fileupload({
 // Passport.js
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use(forceSsl);
 
 // Setting up views
 app.set('views', (__dirname + '/views'));
