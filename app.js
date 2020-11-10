@@ -8,7 +8,6 @@ const mongoose = require('mongoose');
 const cloudinary = require('cloudinary').v2;
 const nodemailer = require('nodemailer');
 const expressValidator = require('express-validator');
-var forceSsl = require('force-ssl-heroku');
 
 
 const app = express();
@@ -51,7 +50,6 @@ app.use(fileupload({
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(forceSsl);
 
 // Setting up views
 app.set('views', (__dirname + '/views'));
