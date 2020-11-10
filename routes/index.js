@@ -25,6 +25,5 @@ router.post('/register',
 router.post('/login', authController.login);
 
 
-
 // Exporting the module
 module.exports = router;
