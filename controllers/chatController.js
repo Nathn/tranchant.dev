@@ -1,6 +1,5 @@
 const User = require('../models/User');
-const Tweet = require('../models/Tweet');
-const Reply = require('../models/Reply');
+const Message = require('../models/ChatMessage');
 const promisify = require('es6-promisify');
 const moment = require('moment');
 const multer = require('multer');

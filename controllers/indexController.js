@@ -1,6 +1,4 @@
-const Tweet = require('../models/Tweet');
 const User = require('../models/User');
-const Reply = require('../models/Reply');
 const moment = require('moment');
 
 moment.locale('fr')
