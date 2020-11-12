@@ -42,7 +42,7 @@
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
-    --container-medium-width: 700px; 
+    --container-medium-width: 700px;
     --container-small-width: 500px;
 
     --gutter-huge: 12rem;
@@ -178,7 +178,7 @@ p {
 }
 
 @media(max-width: 900px) {
-    p { 
+    p {
         max-width: var(--container-small-width);
     }
 }
@@ -404,7 +404,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)),
         url('./images/header.jpg');
     height: 100vh;
     background-size: cover;
@@ -556,7 +556,7 @@ body:not(.user-is-tabbing) a:focus {
     .about__text {
         flex: 0 0 35%;
     }
-    
+
     .about__photo-container {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
@@ -569,6 +569,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .contact__info {
     max-width: var(--container-medium-width);
+}
+
+.contact__social-icon {
+	height: 2rem;
+	vertical-align: middle;
 }
 
 /* --------------------------------------- */
@@ -603,11 +608,10 @@ body:not(.user-is-tabbing) a:focus {
 .footer__github-buttons iframe {
     height: 2.5rem;
     width: 84px;
-    transform: translateY(3px);
 }
 
 @media(max-width: 500px) {
     .footer {
         padding: var(--gutter-medium) 0;
-    } 
+    }
 }
