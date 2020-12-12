@@ -489,7 +489,11 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
-    margin-bottom: var(--gutter-normal);
+	margin-bottom: var(--gutter-normal);
+}
+
+.work__image {
+	border-radius: 3px;
 }
 
 @media(min-width: 901px) {
