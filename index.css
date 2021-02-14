@@ -480,6 +480,8 @@ body:not(.user-is-tabbing) a:focus {
 .work__code {
     display: block;
     height: 3rem;
+	user-select: none;
+	-moz-user-select: none;
     margin-left: var(--gutter-normal);
     transition: all .3s;
 }
@@ -494,6 +496,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image {
 	border-radius: 3px;
+	user-select: none;
+	-moz-user-select: none;
 }
 
 @media(min-width: 901px) {
@@ -578,6 +582,8 @@ body:not(.user-is-tabbing) a:focus {
 .contact__social-icon {
 	height: 2rem;
 	vertical-align: middle;
+	-moz-user-select: none;
+	user-select: none;
 }
 
 /* --------------------------------------- */
@@ -603,6 +609,8 @@ body:not(.user-is-tabbing) a:focus {
 .footer__social-image {
     height: 4rem;
 	transition: all .3s;
+	user-select: none;
+	-moz-user-select: none;
 }
 
 .footer__social-image:hover {
