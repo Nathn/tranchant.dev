@@ -248,7 +248,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn--pink {
     background: var(--pink);
-    transition: all 0.2s;
+    transition: all 0.3s;
+    user-select: none;
+	-moz-user-select: none;
 }
 
 .btn--pink::after {
@@ -267,6 +269,8 @@ body:not(.user-is-tabbing) a:focus {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid var(--pink);
+    user-select: none;
+	-moz-user-select: none;
 }
 
 .link__text::after {
@@ -437,7 +441,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
-/* ----- Work ----- */
+/* ----- Projects ----- */
 /* --------------------------------------- */
 
 .work__box {
@@ -498,6 +502,7 @@ body:not(.user-is-tabbing) a:focus {
 	border-radius: 3px;
 	user-select: none;
 	-moz-user-select: none;
+    box-shadow: 0 0 8px 8px #2f3136;
 }
 
 @media(min-width: 901px) {
@@ -510,32 +515,6 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 900px) {
     .work__code {
         height: 4rem;
-    }
-}
-
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
-
-.client__logos {
-    display: flex;
-    justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
-}
-
-.client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
-}
-
-@media(max-width: 1240px) {
-    .client__logos {
-        overflow-x: scroll;
-        padding: var(--gutter-normal);
-    }
-
-    .client__logo:not(:last-of-type) {
-        margin-right: var(--gutter-medium);
     }
 }
 

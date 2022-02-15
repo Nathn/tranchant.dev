@@ -1,7 +1,3 @@
-/* -----------------------------------------
-  Have focus outline only for keyboard users
- ---------------------------------------- */
-
 const handleFirstTab = (e) => {
 	if (e.key === 'Tab') {
 		document.body.classList.add('user-is-tabbing')
@@ -47,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		url: 'https://api.github.com/repos/nathn/codiscan/releases/latest',
 		type: 'GET',
 		success: (res) => {
-			console.log(res)
 			codiscanLink.href = res.assets[0].browser_download_url
 		},
 		error: (jqXHR, textStatus, errorThrown) => {
