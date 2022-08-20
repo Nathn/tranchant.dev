@@ -555,7 +555,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .contact__info {
-    max-width: var(--container-medium-width);
+    max-width: var(--container-normal-width);
 }
 
 .contact__social-icon {
