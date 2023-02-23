@@ -37,16 +37,3 @@ window.addEventListener("scroll", () => {
 		alterStyles(isBackToTopRendered);
 	}
 });
-
-document.addEventListener("DOMContentLoaded", function (event) {
-	$.ajax({
-		url: 'https://api.github.com/repos/nathn/codiscan/releases/latest',
-		type: 'GET',
-		success: (res) => {
-			codiscanLink.href = res.assets[0].browser_download_url
-		},
-		error: (jqXHR, textStatus, errorThrown) => {
-			console.error(textStatus);
-		}
-	});
-});
