@@ -262,6 +262,16 @@ body:not(.user-is-tabbing) a:focus {
     background: transparent;
 }
 
+.emojis {
+    vertical-align: middle;
+    text-shadow:
+        0 0 1px black,
+        -1px -1px 1px black,
+        -1px 1px 1px black,
+        1px 1px 1px black,
+        1px -1px 1px black;
+}
+
 .link__text {
     position: relative;
     display: inline-block;
