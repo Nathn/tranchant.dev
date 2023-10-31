@@ -1,285 +1,454 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/images/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+        <title>Nathan Tranchant - Étudiant</title>
 
-	<title>
-		Nathan Tranchant - Étudiant
-	</title>
+        <meta name="description" content="Nathn - Projets et liens" />
+        <meta
+            name="keywords"
+            content="nathn nathan tranchant squakr web devloper développeur france javascript discord"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
 
-	<meta name="description" content="Nathn - Projets et liens">
-	<meta name="keywords" content="nathn nathan tranchant squakr web devloper développeur france javascript discord" />
-	<link rel="stylesheet" href="index.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
+    <body>
+        <header class="header" role="banner" id="top">
+            <div class="header__text-box row">
+                <div class="header__text">
+                    <h1 class="heading-primary">
+                        <span>Nathan Tranchant, 19</span>
+                    </h1>
+                    <p>Étudiant de 3ème année, Epitech Nice</p>
+                    <a
+                        href="#work"
+                        class="btn btn--pink"
+                        style="margin-right: 20px"
+                    >
+                        Expérience
+                    </a>
+                    <a
+                        href="#projects"
+                        class="btn btn--pink"
+                        style="margin-right: 20px"
+                    >
+                        Projets
+                    </a>
+                    <a
+                        href="./CV_Nathan-Tranchant.pdf"
+                        target="_blank"
+                        class="btn btn--pink"
+                        style="margin-right: 20px"
+                    >
+                        <span class="emojis">🇫🇷</span> CV
+                    </a>
+                    <a
+                        href="./CV_Nathan-Tranchant_EN.pdf"
+                        target="_blank"
+                        class="btn btn--pink"
+                        style="margin-right: 20px"
+                    >
+                        <span class="emojis">🇬🇧 🇺🇸</span> Resume
+                    </a>
+                    <a href="#contact" class="btn btn--pink"> Me contacter </a>
+                </div>
+            </div>
+        </header>
 
-<body>
+        <main role="main">
+            <section class="work" id="work">
+                <div class="row">
+                    <h2>Expérience</h2>
+                    <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>GridPocket</h3>
+                                <p>Stage, Juin 2022 - Décembre 2022</p>
+                                <p>
+                                    Développement de plateformes web de gestion
+                                    de l'énergie et d'engagement utilisateur.
+                                </p>
+                                <ul class="work__list">
+                                    <li>Angular</li>
+                                    <li>NestJS</li>
+                                    <li>MongoDB</li>
+                                </ul>
 
-	<header class="header" role="banner" id="top">
-		<div class="header__text-box row">
-			<div class="header__text">
-				<h1 class="heading-primary">
-					<span>Nathan Tranchant, 19</span>
-				</h1>
-				<p>Étudiant de 3ème année, Epitech Nice</p>
-				<a href="#work" class="btn btn--pink" style="margin-right: 20px;">
-					Expérience
-				</a>
-				<a href="#projects" class="btn btn--pink" style="margin-right: 20px;">
-					Projets
-				</a>
-				<a href="./CV_Nathan-Tranchant.pdf" target="_blank" class="btn btn--pink" style="margin-right: 20px;">
-					<span class="emojis">🇫🇷</span> CV
-				</a>
-				<a href="./CV_Nathan-Tranchant_EN.pdf" target="_blank" class="btn btn--pink" style="margin-right: 20px;">
-					<span class="emojis">🇬🇧 🇺🇸</span> Resume
-				</a>
-				<a href="#contact" class="btn btn--pink">
-					Me contacter
-				</a>
-			</div>
-		</div>
-	</header>
+                                <div class="work__links">
+                                    <a
+                                        href="https://www.gridpocket.com/fr/"
+                                        target="_blank"
+                                        class="link__text"
+                                    >
+                                        Visiter le site web <span>&rarr;</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/work/gridpocket.png"
+                                    class="work__image"
+                                    alt="GridPocket Logo"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-	<main role="main">
+            <section class="projects" id="projects">
+                <div class="row">
+                    <h2>Projets personnels</h2>
+                    <div class="work__boxes">
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>NTChat</h3>
+                                <p>Un chat web rapide et ouvert à tous.</p>
+                                <ul class="work__list">
+                                    <li>Node</li>
+                                    <li>MongoDB</li>
+                                    <li>Passport</li>
+                                    <li>ExpressJS</li>
+                                </ul>
 
-		<section class="work" id="work">
-			<div class="row">
-				<h2>Expérience</h2>
-				<div class="work__boxes">
-					<div class="work__box">
-						<div class="work__text">
-							<h3>GridPocket</h3>
-							<p>
-								Stage, Juin 2022 - Décembre 2022
-							</p>
-							<p>
-								Développement de plateformes web de gestion de l'énergie et d'engagement utilisateur.
-							</p>
-							<ul class="work__list">
-								<li>Angular</li>
-								<li>NestJS</li>
-								<li>MongoDB</li>
-							</ul>
+                                <div class="work__links">
+                                    <a
+                                        href="http://chat.tranchant.tech"
+                                        target="_blank"
+                                        class="link__text"
+                                    >
+                                        Visiter <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nathn/NTChat"
+                                        title="Code source"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/projects/ntchat.png"
+                                    class="work__image"
+                                    alt="NTChat Screenshot"
+                                />
+                            </div>
+                        </div>
 
-							<div class="work__links">
-								<a href="https://www.gridpocket.com/fr/" target="_blank" class="link__text">
-									Visiter le site web <span>&rarr;</span>
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/work/gridpocket.png" class="work__image" alt="GridPocket Logo" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Squakr</h3>
+                                <p>
+                                    Un réseau social Twitter-like, open-source,
+                                    sans publicités ni collecte de données
+                                    abusive.
+                                </p>
+                                <ul class="work__list">
+                                    <li>Node</li>
+                                    <li>Mongoose</li>
+                                    <li>PugJS</li>
+                                    <li>ExpressJS</li>
+                                </ul>
 
-		<section class="projects" id="projects">
-			<div class="row">
-				<h2>Projets personnels</h2>
-				<div class="work__boxes">
-					<div class="work__box">
-						<div class="work__text">
-							<h3>NTChat</h3>
-							<p>
-								Un chat web rapide et ouvert à tous.
-							</p>
-							<ul class="work__list">
-								<li>Node</li>
-								<li>MongoDB</li>
-								<li>Passport</li>
-								<li>ExpressJS</li>
-							</ul>
+                                <div class="work__links">
+                                    <a
+                                        href="http://squakr.tranchant.tech"
+                                        target="_blank"
+                                        class="link__text"
+                                    >
+                                        Visiter <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nathn/Squakr"
+                                        title="Code source"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/projects/squakr.png"
+                                    class="work__image"
+                                    alt="Squakr Screenshot"
+                                />
+                            </div>
+                        </div>
 
-							<div class="work__links">
-								<a href="http://chat.tranchant.tech" target="_blank" class="link__text">
-									Visiter <span>&rarr;</span>
-								</a>
-								<a href="https://github.com/Nathn/NTChat" title="Code source" target="_blank">
-									<img src="./images/github.svg" class="work__code" alt="GitHub">
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/projects/ntchat.png" class="work__image" alt="NTChat Screenshot" />
-						</div>
-					</div>
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>NTCode</h3>
+                                <p>
+                                    Un éditeur JavaScript en ligne gratuit et
+                                    sans incription.
+                                </p>
+                                <ul class="work__list">
+                                    <li>Pure Javascript</li>
+                                    <li>Ace Editor</li>
+                                </ul>
 
-					<div class="work__box">
-						<div class="work__text">
-							<h3>Squakr</h3>
-							<p>
-								Un réseau social Twitter-like, open-source,
-								sans publicités ni collecte de données abusive.
-							</p>
-							<ul class="work__list">
-								<li>Node</li>
-								<li>Mongoose</li>
-								<li>PugJS</li>
-								<li>ExpressJS</li>
-							</ul>
+                                <div class="work__links">
+                                    <a
+                                        href="https://code.tranchant.tech"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Visiter <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nathn/NTCode"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="Code Source"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/projects/ntcode.png"
+                                    class="work__image"
+                                    alt="NTCode Screenshot"
+                                />
+                            </div>
+                        </div>
 
-							<div class="work__links">
-								<a href="http://squakr.tranchant.tech" target="_blank" class="link__text">
-									Visiter <span>&rarr;</span>
-								</a>
-								<a href="https://github.com/Nathn/Squakr" title="Code source" target="_blank">
-									<img src="./images/github.svg" class="work__code" alt="GitHub">
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/projects/squakr.png" class="work__image" alt="Squakr Screenshot" />
-						</div>
-					</div>
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>GeoDraw</h3>
+                                <p>
+                                    Un jeu de géographie en ligne consistant à
+                                    reproduire les formes de différents pays du
+                                    monde.
+                                </p>
+                                <ul class="work__list">
+                                    <li>Pure Javascript</li>
+                                    <li>jQuery</li>
+                                    <li>Raphael SketchPad</li>
+                                </ul>
 
-					<div class="work__box">
-						<div class="work__text">
-							<h3>NTCode</h3>
-							<p>
-								Un éditeur JavaScript en ligne gratuit et sans incription.
-							</p>
-							<ul class="work__list">
-								<li>Pure Javascript</li>
-								<li>Ace Editor</li>
-							</ul>
+                                <div class="work__links">
+                                    <a
+                                        href="https://geodraw.tranchant.tech"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Visiter <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nathn/GeoDraw"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="Github Repo"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/projects/geodraw.png"
+                                    class="work__image"
+                                    alt="GeoDraw Screenshot"
+                                />
+                            </div>
+                        </div>
 
-							<div class="work__links">
-								<a href="https://code.tranchant.tech" class="link__text" target="_blank">
-									Visiter <span>&rarr;</span>
-								</a>
-								<a href="https://github.com/Nathn/NTCode" target="_blank">
-									<img src="./images/github.svg" class="work__code" title="Code Source" alt="GitHub">
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/projects/ntcode.png" class="work__image" alt="NTCode Screenshot" />
-						</div>
-					</div>
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>FootX</h3>
+                                <p>
+                                    Un mini-jeu en ligne vous proposant de
+                                    retrouver les vrais noms de footballeurs au
+                                    milieu d'autres générés aléatoirement. Un
+                                    classement permet de comparer vos
+                                    performances avec celles des autres joueurs,
+                                    sans créer de compte.
+                                </p>
+                                <ul class="work__list">
+                                    <li>Angular</li>
+                                    <li>TypeScript</li>
+                                    <li>Node.js</li>
+                                    <li>MongoDB</li>
+                                </ul>
 
-					<div class="work__box">
-						<div class="work__text">
-							<h3>GeoDraw</h3>
-							<p>
-								Un jeu de géographie en ligne consistant à reproduire les formes de différents pays du monde.
-							</p>
-							<ul class="work__list">
-								<li>Pure Javascript</li>
-								<li>jQuery</li>
-								<li>Raphael SketchPad</li>
-							</ul>
+                                <div class="work__links">
+                                    <a
+                                        href="https://footx.tranchant.tech"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Visiter <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nathn/FootX"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="Github Repo"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/projects/footx.png"
+                                    class="work__image"
+                                    alt="FootX Screenshot"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-							<div class="work__links">
-								<a href="https://geodraw.tranchant.tech" class="link__text" target="_blank">
-									Visiter <span>&rarr;</span>
-								</a>
-								<a href="https://github.com/Nathn/GeoDraw" target="_blank">
-									<img src="./images/github.svg" class="work__code" title="Github Repo" alt="GitHub">
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/projects/geodraw.png" class="work__image" alt="GeoDraw Screenshot" />
-						</div>
-					</div>
+        <section class="contact" id="contact">
+            <div class="row">
+                <h2>Me contacter</h2>
+                <div class="contact__info">
+                    <p>
+                        Le prochain stage rentrant dans mon cursus EPITECH se
+                        déroulera à partir de février 2024.<br />
+                        Si vous êtes un particulier, je suis également
+                        disponible pour réaliser des projets de petite
+                        envergure. La manière la plus simple de me joindre pour
+                        cela est d'envoyer un email, mais vous pouvez aussi me
+                        contacter via mon compte Discord, ci-dessous.
+                    </p>
 
-					<div class="work__box">
-						<div class="work__text">
-							<h3>FootX</h3>
-							<p>
-								Un mini-jeu en ligne vous proposant de retrouver les vrais noms de footballeurs au milieu d'autres générés aléatoirement.
-								Un classement permet de comparer vos performances avec celles des autres joueurs, sans créer de compte.
-							</p>
-							<ul class="work__list">
-								<li>Angular</li>
-								<li>TypeScript</li>
-								<li>Node.js</li>
-								<li>MongoDB</li>
-							</ul>
+                    <a
+                        href="mailto:nathan.tranchant@epitech.eu"
+                        target="_blank"
+                        class="btn"
+                        style="margin-right: 15px"
+                    >
+                        nathan.tranchant@epitech.eu
+                    </a>
+                    <a
+                        href="https://discord.com/users/260041679162048513"
+                        target="_blank"
+                        class="btn"
+                    >
+                        <img
+                            src="./images/discord.svg"
+                            class="contact__social-icon"
+                            alt="Discord"
+                        />
+                        @nathan.fr
+                    </a>
+                </div>
+            </div>
+        </section>
 
-							<div class="work__links">
-								<a href="https://footx.tranchant.tech" class="link__text" target="_blank">
-									Visiter <span>&rarr;</span>
-								</a>
-								<a href="https://github.com/Nathn/FootX" target="_blank">
-									<img src="./images/github.svg" class="work__code" title="Github Repo" alt="GitHub">
-								</a>
-							</div>
-						</div>
-						<div class="work__image-box">
-							<img src="./images/projects/footx.png" class="work__image" alt="FootX Screenshot" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <footer role="contentinfo" class="footer">
+            <div class="row">
+                <ul class="footer__social-links">
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://twitter.com/natranchant/"
+                            title="Twitter"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/twitter.svg"
+                                class="footer__social-image"
+                                alt="Twitter"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://github.com/nathn/"
+                            title="Github"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/github.svg"
+                                class="footer__social-image"
+                                alt="Github"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://stackoverflow.com/users/13151164/nathn"
+                            title="Stack Overflow"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/stackoverflow.svg"
+                                class="footer__social-image"
+                                alt="Stack Overflow"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://www.linkedin.com/in/nathantranchant/"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/linkedin.svg"
+                                title="Linkedin"
+                                class="footer__social-image"
+                                alt="Linkedin"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
-	</main>
-
-
-	<section class="contact" id="contact">
-		<div class="row">
-			<h2>Me contacter</h2>
-			<div class="contact__info">
-				<p>
-					Le prochain stage rentrant dans mon cursus EPITECH se déroulera à partir de février 2024.<br />
-					Si vous êtes un particulier, je suis également disponible pour réaliser des projets de petite envergure.
-					La manière la plus simple de me joindre pour cela
-					est d'envoyer un email, mais vous
-					pouvez aussi me contacter via mon compte Discord, ci-dessous.
-				</p>
-
-				<a href="mailto:nathan.tranchant@epitech.eu" target="_blank" class="btn" style="margin-right: 15px;"">
-					nathan.tranchant@epitech.eu
-				</a><a href="https://discord.com/users/260041679162048513" target="_blank" class="btn">
-					<img src="./images/discord.svg" class="contact__social-icon" alt="Discord">
-					@nathan.fr
-				</a>
-			</div>
-		</div>
-	</section>
-
-
-	<footer role="contentinfo" class="footer">
-		<div class="row">
-			<ul class="footer__social-links">
-				<li class="footer__social-link-item">
-					<a href="https://twitter.com/natranchant/" title="Twitter" target="_blank">
-						<img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-					</a>
-				</li>
-				<li class="footer__social-link-item">
-					<a href="https://github.com/nathn/" title="Github" target="_blank">
-						<img src="./images/github.svg" class="footer__social-image" alt="Github">
-					</a>
-				</li>
-				<li class="footer__social-link-item">
-					<a href="https://stackoverflow.com/users/13151164/nathn" title="Stack Overflow" target="_blank">
-						<img src="./images/stackoverflow.svg" class="footer__social-image" alt="Stack Overflow">
-					</a>
-				</li>
-				<li class="footer__social-link-item">
-					<a href="https://www.linkedin.com/in/nathantranchant/" target="_blank">
-						<img src="./images/linkedin.svg" title="Linkedin" class="footer__social-image" alt="Linkedin">
-					</a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-
-	<a href="#top" class="back-to-top" title="Revenir en haut">
-		<img src="./images/arrow-up.svg" alt="Revenir en haut" class="back-to-top__image" />
-	</a>
-	<script src="./index.js"></script>
-</body>
-
+        <a href="#top" class="back-to-top" title="Revenir en haut">
+            <img
+                src="./images/arrow-up.svg"
+                alt="Revenir en haut"
+                class="back-to-top__image"
+            />
+        </a>
+        <script src="./index.js"></script>
+    </body>
 </html>
