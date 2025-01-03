@@ -1,0 +1,121 @@
+{
+  "projects": [
+    {
+      "title": "MasterQuizz",
+      "description": {
+        "fr": "Jeu de culture générale en ligne, avec modes de jeu solo et multijoueur.",
+        "en": "[In French only] A browser trivia game with solo and live multiplayer modes."
+      },
+      "technologies": [
+        "Angular",
+        "WebSockets",
+        "MongoDB",
+        "Node.js"
+      ],
+      "website": "https://masterquizz.fr",
+      "github": null,
+      "image": "./images/projects/masterquizz.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de MasterQuizz",
+        "en": "MasterQuizz Screenshot"
+      }
+    },
+    {
+      "title": "NTChat",
+      "description": {
+        "fr": "Un chat web rapide et ouvert à tous.",
+        "en": "[In French only] A fast webchat application open to all."
+      },
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Passport",
+        "ExpressJS"
+      ],
+      "website": "https://chat.tranchant.tech",
+      "github": "https://github.com/Nathn/NTChat",
+      "image": "./images/projects/ntchat.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de NTChat",
+        "en": "NTChat Screenshot"
+      }
+    },
+    {
+      "title": "Squakr",
+      "description": {
+        "fr": "Un réseau social Twitter-like, open-source, sans publicités ni collecte de données abusive.",
+        "en": "A Twitter-like social network, open-source, without ads nor abusive data collection."
+      },
+      "technologies": [
+        "Node.js",
+        "Mongoose",
+        "PugJS",
+        "ExpressJS"
+      ],
+      "website": "https://squakr.tranchant.tech",
+      "github": "https://github.com/Nathn/Squakr",
+      "image": "./images/projects/squakr.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de Squakr",
+        "en": "NTChat Screenshot"
+      }
+    },
+    {
+      "title": "NTCode",
+      "description": {
+        "fr": "Un éditeur JavaScript en ligne gratuit et sans incription.",
+        "en": "A free, registration-free online JavaScript editor."
+      },
+      "technologies": [
+        "Pure Javascript",
+        "Ace Editor"
+      ],
+      "website": "https://code.tranchant.tech",
+      "github": "https://github.com/Nathn/NTCode",
+      "image": "./images/projects/ntcode.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de NTCode",
+        "en": "NTCode Screenshot"
+      }
+    },
+    {
+      "title": "GeoDraw",
+      "description": {
+        "fr": "Un jeu de géographie en ligne consistant à reproduire les formes de différents pays du monde.",
+        "en": "A browser-based geography game where you have to draw the shapes of different countries."
+      },
+      "technologies": [
+        "Pure Javascript",
+        "jQuery",
+        "Raphael SketchPad"
+      ],
+      "website": "https://geodraw.tranchant.tech",
+      "github": "https://github.com/Nathn/GeoDraw",
+      "image": "./images/projects/geodraw.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de GeoDraw",
+        "en": "GeoDraw Screenshot"
+      }
+    },
+    {
+      "title": "FootX",
+      "description": {
+        "fr": "Un mini-jeu en ligne vous proposant de retrouver les vrais noms de footballeurs au milieu d'autres générés aléatoirement. Un classement permet de comparer vos performances avec celles des autres joueurs, sans créer de compte.",
+        "en": "A mini-game where you have to find the real names of football players among others randomly generated. A ranking allows you to compare your performance with other players, without creating an account."
+      },
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "website": "https://footx.tranchant.tech",
+      "github": "https://github.com/Nathn/FootX",
+      "image": "./images/projects/footx.png",
+      "imageAlt": {
+        "fr": "Capture d'écran de FootX",
+        "en": "FootX Screenshot"
+      }
+    }
+  ]
+}

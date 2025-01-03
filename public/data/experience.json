@@ -1,0 +1,26 @@
+{
+  "experience": [
+    {
+      "title": "GridPocket",
+      "role": {
+        "fr": "Stage, Juin 2022 - Décembre 2022",
+        "en": "Internship, June 2022 - December 2022"
+      },
+      "description": {
+        "fr": "Développement de plateformes web de gestion de l'énergie et d'engagement utilisateur.",
+        "en": "Development of energy management and user engagement web platforms."
+      },
+      "technologies": [
+        "Angular",
+        "NestJS",
+        "MongoDB"
+      ],
+      "website": "https://www.gridpocket.com/fr/",
+      "image": "./images/work/gridpocket.png",
+      "imageAlt": {
+        "fr": "Logo de GridPocket",
+        "en": "GridPocket Logo"
+      }
+    }
+  ]
+}
