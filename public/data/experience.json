@@ -15,11 +15,54 @@
         "NestJS",
         "MongoDB"
       ],
-      "website": "https://www.gridpocket.com/fr/",
+      "website": "https://www.gridpocket.com/en/",
       "image": "./images/work/gridpocket.png",
       "imageAlt": {
         "fr": "Logo de GridPocket",
         "en": "GridPocket Logo"
+      }
+    },
+    {
+      "title": "Apimo",
+      "role": {
+        "fr": "Stage, Septembre 2023 - Janvier 2024",
+        "en": "Internship, September 2023 - January 2024"
+      },
+      "description": {
+        "fr": "Création de scripts PHP / SQL d'imports de données entre logiciels immobiliers. Maintenance du logiciel Apimo et de sites clients à l'aide de Symfony.",
+        "en": "Creation of PHP/SQL scripts for data imports between real estate software. Maintenance of the Apimo software and customer sites using Symfony."
+      },
+      "technologies": [
+        "PHP",
+        "Symfony",
+        "PostgreSQL"
+      ],
+      "website": "https://apimo.net/en/",
+      "image": "./images/work/apimo.png",
+      "imageAlt": {
+        "fr": "Logo d'Apimo",
+        "en": "Apimo Logo"
+      }
+    },
+    {
+      "title": "Probesys (Nemoweb)",
+      "role": {
+        "fr": "Contrat, Janvier 2024 - Juin 2024",
+        "en": "Internship, June 2022 - December 2022"
+      },
+      "description": {
+        "fr": "Développement full-stack du logiciel de suivi et de gestion médico-sociale NemoWeb. Utilisation principale de Ruby on Rails et de MariaDB.",
+        "en": "Full-stack development of the NemoWeb medical-social monitoring and management software. Mainly using Ruby on Rails and MariaDB."
+      },
+      "technologies": [
+        "Ruby on Rails",
+        "MariaDB"
+      ],
+      "website": "https://nemoweb.coop/",
+      "image": "./images/work/nemoweb.png",
+      "imageAlt": {
+        "fr": "Logo de Nemoweb",
+        "en": "Nemoweb Logo"
       }
     }
   ]
