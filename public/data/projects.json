@@ -13,7 +13,7 @@
         "Node.js"
       ],
       "website": "https://masterquizz.fr",
-      "github": null,
+      "github": "https://github.com/Nathn/MasterQuizz",
       "image": "./images/projects/masterquizz.png",
       "imageAlt": {
         "fr": "Capture d'écran de MasterQuizz",
