@@ -32,7 +32,7 @@
         "Passport",
         "ExpressJS"
       ],
-      "website": "https://chat.tranchant.tech",
+      "website": "https://chat.tranchant.dev",
       "github": "https://github.com/Nathn/NTChat",
       "image": "./images/projects/ntchat.png",
       "imageAlt": {
@@ -52,7 +52,7 @@
         "PugJS",
         "ExpressJS"
       ],
-      "website": "https://squakr.tranchant.tech",
+      "website": "https://squakr.tranchant.dev",
       "github": "https://github.com/Nathn/Squakr",
       "image": "./images/projects/squakr.png",
       "imageAlt": {
@@ -70,7 +70,7 @@
         "Pure Javascript",
         "Ace Editor"
       ],
-      "website": "https://code.tranchant.tech",
+      "website": "https://code.tranchant.dev",
       "github": "https://github.com/Nathn/NTCode",
       "image": "./images/projects/ntcode.png",
       "imageAlt": {
@@ -89,7 +89,7 @@
         "jQuery",
         "Raphael SketchPad"
       ],
-      "website": "https://geodraw.tranchant.tech",
+      "website": "https://geodraw.tranchant.dev",
       "github": "https://github.com/Nathn/GeoDraw",
       "image": "./images/projects/geodraw.png",
       "imageAlt": {
@@ -109,7 +109,7 @@
         "Node.js",
         "MongoDB"
       ],
-      "website": "https://footx.tranchant.tech",
+      "website": "https://footx.tranchant.dev",
       "github": "https://github.com/Nathn/FootX",
       "image": "./images/projects/footx.png",
       "imageAlt": {

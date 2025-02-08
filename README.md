@@ -1,2 +1,2 @@
-# tranchant.tech
+# tranchant.dev
 My personnal website.
