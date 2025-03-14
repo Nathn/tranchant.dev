@@ -32,7 +32,7 @@
         "Passport",
         "ExpressJS"
       ],
-      "website": "https://chat.tranchant.dev",
+      "website": "",
       "github": "https://github.com/Nathn/NTChat",
       "image": "./images/projects/ntchat.png",
       "imageAlt": {
@@ -52,7 +52,7 @@
         "PugJS",
         "ExpressJS"
       ],
-      "website": "https://squakr.tranchant.dev",
+      "website": "",
       "github": "https://github.com/Nathn/Squakr",
       "image": "./images/projects/squakr.png",
       "imageAlt": {
@@ -109,7 +109,7 @@
         "Node.js",
         "MongoDB"
       ],
-      "website": "https://footx.tranchant.dev",
+      "website": "",
       "github": "https://github.com/Nathn/FootX",
       "image": "./images/projects/footx.png",
       "imageAlt": {

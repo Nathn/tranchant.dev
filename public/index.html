@@ -110,14 +110,23 @@
                                   ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
                                 </ul>
                                 <div class="work__links">
-                                  <a href="${project.website}" target="_blank" class="link__text">
+                                    ${project.website
+                                ? `<a href="${project.website}" target="_blank" class="link__text">
                                     Visiter <span>&rarr;</span>
                                   </a>
                                   ${project.github
-                                ? `<a href="${project.github}" target="_blank">
-                                           <img src="./images/github.svg" class="work__code" alt="GitHub" />
-                                         </a>`
-                                : ''
+                                    ? `<a href="${project.github}" target="_blank">
+                                            <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                                            </a>`
+                                    : ''
+                                }`
+                                : `${project.github
+                                    ? `<a href="${project.github}" target="_blank" class="link__text" style="display: flex; gap: 1rem;">
+                                            <img src="./images/github.svg" class="work__code" alt="GitHub" style="margin-left: 0;" />
+                                            Code source <span>&rarr;</span>
+                                            </a>`
+                                    : ''
+                                }`
                             }
                                 </div>
                               </div>
